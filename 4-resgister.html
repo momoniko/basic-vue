@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            /* /background-color: rgb(15, 14, 14);*/
+            background-image: url(./素材/耀.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .box {
+            /*颜色*/
+            background-color: rgba(0, 0, .8);
+            /*透明*/
+            background: rgba(0, 0, 0, .5);
+            position: relative;
+            margin: 150px auto;
+            width: 600px;
+            height: 600px;
+            border-radius: 20px;
+        }
+        
+        .nav {
+            position: absolute;
+            width: 600px;
+            height: 100px;
+            /*对其*/
+            text-align: center;
+            /*字体颜色*/
+            color: rgb(245, 243, 243);
+            /*字间隔*/
+            letter-spacing: 1em;
+            /*字体大小*/
+            font-size: 30px;
+            /*行高*/
+            line-height: 60px;
+            /*缩进*/
+            text-indent: 1em;
+        }
+        
+        .main {
+            position: absolute;
+            font-size: 30px;
+            margin: 150px 80px;
+            line-height: 20px;
+            color: rgb(232, 238, 235);
+        }
+        
+        input {
+            width: 400px;
+            height: 45px;
+            font-size: 30px;
+            outline: none;
+        }
+        
+        button {
+            position: absolute;
+            font-size: 30px;
+            margin: 10px;
+            right: 10px;
+            width: 100px;
+            height: 50px;
+            background-color: darkseagreen;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="nav">
+            <h1>登录</h1>
+        </div>
+        <form class="main">
+            <p>账号</p>
+            <input type="text " name="user" placeholder="请输入昵称"><img src=" # ">
+            <p>密码</p>
+            <input type="password " name="password" placeholder="请输入密码"><img src="# ">
+            <p><button>登录</button></p>
+        </form>
+
+        <form class="main">
+            <p>账号</p>
+            <input type="text " name="user" placeholder="请输入昵称"><img src=" # ">
+            <p>密码</p>
+            <input type="password " name="password" placeholder="请输入密码"><img src="# ">
+            <p><button class="bt">登录</button></p>
+        </form>
+    </div>
+
+</body>
+
+</html>
